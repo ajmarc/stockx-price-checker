@@ -28,7 +28,7 @@ async function discord() {
     return main(msg);
   });
 
-  client.login("NzE4OTc0NDE3NTg5MzcwODgw.XuBzCA.P72k8JHDfEIAgu94eWSNUuhZB7o");
+  client.login("DISCORD WEBHOOK HERE...");
 }
 
 async function stockx(shoe, size, msg) {
@@ -123,10 +123,7 @@ async function main(imgUrl, msg, size, lowestAsk, highestBid, sizeUrl) {
 
     timestamp: new Date(),
 
-    footer: {
-      text: "Made by Vice#1819",
-      inline: true,
-    },
+
   };
   msg.channel.send({ embed: stockxEmbed });
 }
